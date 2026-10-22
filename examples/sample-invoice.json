@@ -1,0 +1,24 @@
+{
+  "invoiceNumber": "2026-014",
+  "issueDate": "2026-10-01",
+  "dueDate": "2026-10-15",
+  "currency": "USD",
+  "from": {
+    "name": "Nour Hassan Studio",
+    "email": "hello@nourhassan.example",
+    "address": ["14 El Gezira St, Zamalek", "Cairo 11211, Egypt"]
+  },
+  "to": {
+    "name": "Northwind Coffee Roasters GmbH",
+    "email": "accounts@northwind.example",
+    "address": ["Torstrasse 112", "10119 Berlin, Germany"]
+  },
+  "items": [
+    { "description": "Brand identity: logo system, colour palette and type guidelines", "quantity": 1, "unitPrice": 1800 },
+    { "description": "Packaging design: 3 bag labels (250 g / 500 g / 1 kg)", "quantity": 3, "unitPrice": 320 },
+    { "description": "Design revisions beyond scope (hourly)", "quantity": 6.5, "unitPrice": 45 },
+    { "description": "Print-ready file preparation", "quantity": 1, "unitPrice": 150 }
+  ],
+  "taxPercent": 0,
+  "notes": "Payment by bank transfer (IBAN on request) or Wise within 14 days.\nPlease include the invoice number in the payment reference. Thank you for the great collaboration!"
+}

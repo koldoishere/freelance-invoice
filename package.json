@@ -1,0 +1,47 @@
+{
+  "name": "freelance-invoice",
+  "version": "0.1.0",
+  "description": "Zero-dependency Node.js CLI that turns a simple invoice.json into a clean, printable HTML invoice for freelancers.",
+  "type": "module",
+  "bin": {
+    "freelance-invoice": "bin/freelance-invoice.js"
+  },
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "examples/sample-invoice.json",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test test/",
+    "example": "node bin/freelance-invoice.js examples/sample-invoice.json -o examples/sample-invoice.html"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "freelance",
+    "invoice",
+    "cli",
+    "html",
+    "pdf",
+    "billing",
+    "zero-dependency"
+  ],
+  "author": "Koldo Jao (https://sarabhub.me)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koldoishere/freelance-invoice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koldoishere/freelance-invoice/issues"
+  },
+  "homepage": "https://github.com/koldoishere/freelance-invoice#readme"
+}

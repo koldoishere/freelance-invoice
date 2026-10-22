@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.html
+!examples/*.html
+.DS_Store
+*.log
+.env
+.env.*
